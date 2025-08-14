@@ -1,6 +1,6 @@
 # Chem for Chloe - AI Chemistry Assistant
 
-A modern web application that helps Chloe and other students with chemistry by providing AI-powered molecular drawing, reaction mechanism visualization, and interactive chemistry assistance.
+A modern web application that helps students with chemistry by providing AI-powered molecular drawing, reaction mechanism visualization, and interactive chemistry assistance.
 
 ## 🧪 Features
 
