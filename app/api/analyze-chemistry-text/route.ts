@@ -88,6 +88,7 @@ Return the response in this exact JSON format:
     }
   ],
   "question": "original question",
+  "analysis": "Detailed explanation and analysis of the chemistry question, including key concepts, mechanisms, and insights",
   "analysisType": "ai"
 }
 
@@ -135,6 +136,7 @@ Each intermediate must be a valid chemical structure in SMILES format that can b
           }
         ],
         question: question,
+        analysis: 'Analysis incomplete due to parsing error. Please try rephrasing your question.',
         analysisType: 'ai_fallback'
       })
     }
@@ -168,6 +170,7 @@ Each intermediate must be a valid chemical structure in SMILES format that can b
         }
       ],
       question: question || 'Chemistry question',
+      analysis: 'Basic chemistry analysis using fallback data. Add a Gemini API key for AI-powered analysis.',
       analysisType: 'fallback'
     })
   }

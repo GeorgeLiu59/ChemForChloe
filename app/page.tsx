@@ -411,6 +411,19 @@ export default function Home() {
                     </p>
                   )}
                 </div>
+
+                {/* AI Analysis Section */}
+                {analysisResult.analysis && (
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                    <h3 className="font-semibold text-green-900 mb-2 flex items-center gap-2">
+                      <Beaker className="w-5 h-5" />
+                      AI Analysis & Explanation
+                    </h3>
+                    <div className="text-green-800 prose prose-sm max-w-none">
+                      <p className="whitespace-pre-wrap">{analysisResult.analysis}</p>
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Molecules Section */}

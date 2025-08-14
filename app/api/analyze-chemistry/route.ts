@@ -89,6 +89,7 @@ Return the response in this exact JSON format:
     }
   ],
   "question": "main chemistry question from the image",
+  "analysis": "Detailed explanation and analysis of the chemistry question, including key concepts, mechanisms, and insights",
   "analysisType": "ai"
 }
 
@@ -171,6 +172,7 @@ Each intermediate must be a valid chemical structure in SMILES format that can b
         }
       ],
       question: 'Chemistry question from uploaded image (AI analysis unavailable)',
+      analysis: 'Basic chemistry analysis using fallback data. Add a Gemini API key for AI-powered image analysis.',
       analysisType: 'fallback'
     })
   }
