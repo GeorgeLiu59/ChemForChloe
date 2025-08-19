@@ -12,7 +12,6 @@ A modern web application that helps students with chemistry by providing AI-powe
 
 ### 🧬 Molecular Structure Viewer
 - **Interactive 3D-like Rendering**: Canvas-based molecular visualization
-- **Zoom Controls**: Pan, zoom, and rotate molecular structures
 - **SMILES Support**: Chemical notation for molecular representation
 - **Download Capability**: Export molecular structures as images
 - **Multiple Molecules**: Switch between different identified compounds
